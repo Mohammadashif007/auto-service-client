@@ -5,16 +5,15 @@ const About = () => {
     return (
         <div className="flex items-center gap-10 my-20">
             <div className="flex-1 relative">
-                <img width="300" src={img1} alt="" />
+                <img className="w-[300px]" src={img1} alt="personImage" />
                 <img
-                    className="border-4 border-white absolute -bottom-9 right-20"
-                    width="200"
+                    className="w-[200px] border-4 border-white absolute -bottom-9 right-20"
                     src={img2}
-                    alt=""
+                    alt="partsImage"
                 />
             </div>
             <div className="flex-1">
-                <h3 className="text-3xl font-bold text-orange-600">About US</h3>
+                <h3 className="text-3xl font-bold text-orange-600">About Us</h3>
                 <h2 className="text-5xl font-bold my-4">
                     We are qualified & of experience in this field
                 </h2>
